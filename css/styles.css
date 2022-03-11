@@ -1,0 +1,95 @@
+header, section.hero, footer {
+    background-color: #1F2937;
+    color:white;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    size:24px;
+    color:#F9FAF8;
+}
+ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    size:48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+.hero h1{
+    size:18px;
+    color: #E5E7EB;
+}
+button, .notification-box {
+    background-color: #3882F6;
+    text-align: center;
+}
+
+.info h2 {
+    size:36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+}
+.flex-img{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding:5rem 20rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+q {
+    size:36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+.author {
+    align-self: flex-end;
+}
+
+.notification {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:5rem;
+}
+
+.notification-box {
+    flex-basis:200em;
+    text-align: left;
+    display:flex;
+    justify-content: space-evenly;
+    padding:1rem 3rem;
+
+}
+
+footer {
+    text-align: center;
+}
