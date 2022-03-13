@@ -58,6 +58,7 @@ button, .notification-box {
     border-radius: 6px;
     color: #F9FAF8;
     border-style: none;
+    white-space: nowrap;
 }
 button {
     padding:0.5rem 2rem;
